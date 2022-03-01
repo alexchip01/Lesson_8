@@ -1,0 +1,721 @@
+/* &display=swap */
+@import "null.css";
+
+/*=================================================== FIGMA ===================================================*/
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+
+.wrapper {
+	max-width: 1920px;
+	margin: 0 auto;
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	color: #424551;
+}
+.header,
+.footer {
+	background-color: rgba(230, 220, 220, 0.671);
+	color: rgb(0, 0, 0);
+	padding: 15px;
+	text-align: center;
+}
+.header {
+	margin-bottom: 190px;
+}
+.main {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.content-two {
+	max-width: 390px;
+	margin: 0 0 0 auto;
+}
+.who {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+	margin-bottom: 8px;
+}
+.title-two {
+	margin-bottom: 40px;
+}
+.bold-text {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+}
+.list-two {
+	margin-bottom: 48px;
+}
+.list-two_item {
+}
+.list-two li {
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 12px 0px;
+}
+.list-two li:last-child {
+	margin-bottom: 0px;
+}
+.list-two li::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	margin: 0px 16px 0px -32px;
+	background: url("../img/list.svg") 0px 0 / 16px no-repeat;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+}
+.list-two li:hover::before {
+	transform: scale(1.5);
+}
+.text-light {
+	font-size: 16px;
+	line-height: 1.6;
+}
+.buttn {
+	display: inline-block;
+	color: #ffffff;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 3.1;
+	border-radius: 4px;
+	padding: 0 32px;
+	margin-bottom: 60px;
+}
+.btn {
+	display: inline-block;
+	background-color: rgba(230, 220, 220, 0.671);
+	color: rgb(0, 0, 0);
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.words {
+	margin: 0 auto 430px;
+	max-width: 500px;
+}
+.words-text {
+	font-family: "Taviraj", serif;
+	font-size: 36px;
+	line-height: 1.11;
+	color: #333333;
+	letter-spacing: 0.02em;
+	display: inline-block;
+}
+.words-text::after {
+	content: "";
+	display: block;
+	margin-top: 8px;
+	width: 29.68%;
+	height: 1px;
+	background-color: #333333;
+	transition: 1s;
+}
+.words-text:hover::after {
+	width: 100%;
+}
+
+/*=================================================== FIGMA ===================================================*/
+
+/*================================================== POLYGON ==================================================*/
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "MatchesTypeface";
+	src: url("../fonts/MatchesTypeface-Regular.woff2") format("woff2"), url("../fonts/MatchesTypeface-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Avdirabold";
+	src: url("../fonts/avdira_b-webfont.woff2") format("woff2"), url("../fonts/avdira_b-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,900;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+*:focus {
+	outline: 5px double rgb(0, 255, 0);
+	box-shadow: inset 0px 0px 10px 5px rgba(0, 255, 0, 0.39);
+}
+.content-one {
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+.title-to {
+	font-family: "MatchesTypeface", cursive;
+	font-size: 40px;
+	line-height: 40px;
+	color: rgb(0, 255, 255);
+	text-shadow: 3px 2px 1px rgba(255, 0, 0, 0.459);
+	text-transform: capitalize;
+	text-decoration: underline;
+	padding-left: 140px;
+	margin-bottom: 30px;
+	transition: 1s;
+}
+.title-to:hover {
+	color: rgb(251, 255, 0);
+	text-shadow: 3px 2px 1px rgba(255, 0, 0, 0.459);
+	padding-left: 180px;
+}
+.text-two {
+	font-family: "Indie Flower", cursive;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(0, 60, 255);
+	text-shadow: 5px 5px 10px rgba(43, 255, 0, 0.74);
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.text-two:hover {
+	outline: 10px solid rgba(0, 255, 234, 0.74);
+	transition: 1s;
+}
+.subtitle-two {
+	font-family: "Righteous", cursive;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(245, 29, 0);
+	text-shadow: 5px 5px 7px rgba(0, 255, 255, 0.993);
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.subtitle-two:hover {
+	text-shadow: 5px 5px 7px rgba(251, 255, 0, 0.993);
+}
+.pokemons {
+	display: inline-block;
+	font-family: "Rowdies", cursive;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 35px;
+	word-spacing: 50px;
+	color: rgb(23, 201, 16);
+	text-shadow: 5px 5px 10px rgb(238, 255, 0);
+	padding: 20px 35px;
+}
+.pokemons:hover {
+	color: rgb(53, 177, 49);
+	text-shadow: 5px 5px 10px rgba(183, 0, 255, 0.479);
+}
+.pokemons:active {
+	color: rgba(0, 247, 255, 0.849);
+}
+.pokemons:visited {
+	color: rgba(0, 68, 255, 0.849);
+}
+.img {
+	width: 300px;
+	margin: 50px;
+}
+.pokemon_info {
+	margin-bottom: 20px;
+}
+.pokemon_info li:not(.pika) {
+	margin-bottom: 40px;
+}
+.pika {
+	font-family: "Righteous", cursive;
+	font-size: 50px;
+	line-height: 50px;
+	color: rgb(255, 238, 0);
+	text-shadow: 5px 5px 10px rgba(100, 78, 7, 0.719);
+	max-width: 1500px;
+	max-height: 300px;
+	overflow: auto;
+	margin: 0 0 3% auto;
+}
+.skvirtl {
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 35px;
+	color: rgba(180, 87, 0, 0.781);
+	text-shadow: -5px -5px 10px rgba(136, 127, 1, 0.911);
+	max-width: 1500px;
+	height: 150px;
+	overflow: scroll;
+	margin: 0 auto;
+}
+.chermon {
+	font-family: "Bangers", cursive;
+	font-size: 45px;
+	line-height: 45px;
+	color: rgb(245, 8, 0);
+	text-shadow: 5px 5px 10px rgba(255, 208, 0, 0.603);
+	max-width: 1500px;
+	max-height: 170px;
+	overflow: hidden;
+}
+.bulba {
+	font-family: "Indie Flower", cursive;
+	font-size: 35px;
+	line-height: 40px;
+	font-weight: 700;
+	color: rgb(79, 201, 49);
+	text-shadow: -5px 5px 5px rgba(13, 175, 175, 0.397);
+	text-transform: capitalize;
+}
+.jigly {
+	font-family: "Righteous", cursive;
+	font-size: 25px;
+	line-height: 30px;
+	color: rgb(255, 0, 170);
+	text-shadow: 5px 5px 10px rgba(204, 0, 255, 0.603);
+	padding: 0 100px;
+}
+.psydack {
+	font-family: "Oswald", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 40px;
+	color: rgb(0, 174, 255);
+	text-shadow: 5px 5px 10px rgb(0, 238, 255);
+}
+.sloy {
+	font-family: "Bebas Neue", cursive;
+	font-size: 50px;
+	line-height: 50px;
+	color: rgb(132, 0, 255);
+	text-shadow: 5px 5px 10px rgb(255, 0, 191);
+}
+.films p:first-child {
+	font-family: "Arimo", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 35px;
+	color: rgb(0, 0, 0);
+	text-shadow: 5px 5px 10px rgb(0, 247, 255);
+	text-decoration: line-through;
+	max-width: 1400px;
+	margin: 0 0 30px auto;
+}
+/* .film-one {
+	font-family: "Arimo", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 35px;
+	color: rgb(0, 0, 0);
+	text-shadow: 5px 5px 10px rgb(0, 247, 255);
+	text-decoration: line-through;
+	max-width: 1400px;
+	margin: 0 0 30px auto;
+} */
+.films p:nth-child(2) {
+	font-family: "Avdirabold", cursive;
+	font-size: 40px;
+	line-height: 50px;
+	color: rgb(176, 87, 228);
+	text-shadow: 3px -3px 4px rgba(119, 98, 136, 0.548);
+	text-transform: capitalize;
+	letter-spacing: 7px;
+	max-width: 1000px;
+	max-height: 400px;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+/* .film-two {
+	font-family: "Avdirabold", cursive;
+	font-size: 40px;
+	line-height: 50px;
+	color: rgb(176, 87, 228);
+	text-shadow: 3px -3px 4px rgba(119, 98, 136, 0.548);
+	text-transform: capitalize;
+	letter-spacing: 7px;
+	max-width: 1000px;
+	max-height: 400px;
+	overflow: auto;
+	margin-bottom: 30px;
+} */
+.films p:last-child {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: "Work Sans", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	font-weight: 900;
+	color: rgb(255, 0, 0);
+	text-shadow: 5px 5px 1px rgba(20, 113, 220, 0.575);
+	text-transform: uppercase;
+	border: 5px solid #000;
+	box-shadow: 10px 10px 40px 10px rgb(0, 60, 255);
+}
+/* .film-three {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: "Work Sans", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	font-weight: 900;
+	color: rgb(255, 0, 0);
+	text-shadow: 5px 5px 1px rgba(20, 113, 220, 0.575);
+	text-transform: uppercase;
+	border: 5px solid #000;
+	box-shadow: 10px 10px 40px 10px rgb(0, 60, 255);
+} */
+.games p:hover:last-of-type {
+	color: rgb(20, 121, 33);
+	text-shadow: 5px 5px 1px rgba(1, 255, 35, 0.575);
+}
+.games-one {
+	font-family: "Work Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: 900;
+	font-style: italic;
+	color: rgb(20, 121, 33);
+	text-shadow: 5px 5px 1px rgba(1, 255, 35, 0.575);
+	text-transform: uppercase;
+	overflow: scroll;
+	max-width: 1200px;
+	height: 250px;
+	margin: 0 0 30px auto;
+}
+.games-two {
+	font-family: "Yellowtail Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(255, 153, 0);
+	text-shadow: 5px 5px 7px rgba(1, 18, 255, 0.575);
+	text-transform: uppercase;
+}
+.link {
+	font-family: "Indie Flower", cursive;
+	font-size: 40px;
+	line-height: 45px;
+	color: aqua;
+	text-shadow: 3px 3px 2px rgba(20, 113, 220, 0.849);
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+.new-text {
+	font-family: "Yellowtail Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(119, 0, 255);
+	text-shadow: 5px 5px 7px rgba(252, 146, 8, 0.575);
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-bottom: 7px dotted rgba(45, 219, 11, 0.685);
+}
+.new-text-two {
+	font-family: "Yellowtail Sans", sans-serif;
+	font-size: 30px;
+	line-height: 55px;
+	color: rgb(119, 0, 255);
+	text-shadow: 5px 5px 7px rgba(252, 146, 8, 0.575);
+	text-transform: uppercase;
+	border-bottom: 7px dotted rgba(45, 219, 11, 0.685);
+}
+.tests *:last-child::first-line {
+	color: #f75e05;
+	text-shadow: 5px 3px 7px rgb(4, 0, 255);
+}
+.tests *:nth-child(3)::first-letter {
+	color: #e500fa;
+	text-shadow: 5px 3px 7px rgba(225, 0, 255, 0.589);
+}
+.test-one {
+	font-family: "Lato", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(255, 217, 0);
+	text-shadow: 5px 5px 4px rgb(0, 255, 221);
+	margin-bottom: 20px;
+	padding: 55px;
+	border: 10px dotted rgb(238, 0, 247);
+	box-shadow: inset 0px 0px 50px 10px rgb(199, 166, 21);
+	border-top: 7px solid rgb(0, 255, 221);
+}
+.test-two {
+	font-family: "MatchesTypeface", sans-serif;
+	font-size: 50px;
+	line-height: 65px;
+	color: aqua;
+	text-shadow: 5px 5px 7px rgba(177, 103, 7, 0.575);
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 10px dashed rgb(255, 94, 0);
+}
+.test-to {
+	font-family: "MatchesTypeface", sans-serif;
+	font-size: 50px;
+	line-height: 65px;
+	color: rgb(0, 140, 255);
+	text-shadow: 5px 5px 7px rgba(177, 103, 7, 0.575);
+	padding: 0px 40px;
+	margin-bottom: 20px;
+}
+.test-to::before {
+	content: "";
+	display: block;
+	height: 5px;
+	background-color: rgb(255, 94, 0);
+}
+.test-to::after {
+	content: "";
+	display: block;
+	height: 5px;
+	margin: 15px 0px 0px 0px;
+	background-color: rgb(255, 94, 0);
+}
+.test-three {
+	font-family: "Avdirabold", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(4, 0, 255);
+	text-shadow: 5px 3px 7px rgb(255, 38, 0);
+	margin-bottom: 20px;
+	padding: 25px;
+	border: 10px double rgb(0, 204, 255);
+	border-radius: 15px;
+	opacity: 0.5;
+}
+.test-four {
+	max-width: 1000px;
+	font-family: "Avdirabold", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(0, 255, 34);
+	text-shadow: 5px 3px 7px rgb(208, 255, 0);
+	margin: 0 auto 40px;
+	padding: 15px;
+	border: 5px solid rgb(255, 230, 0);
+	border-radius: 15px;
+	outline: 10px dashed rgba(0, 255, 234, 0.74);
+}
+.park {
+	margin-bottom: 20px;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 10px solid rgb(255, 174, 0);
+	opacity: 0.4;
+}
+.test-five {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px dotted rgb(148, 255, 47);
+	border-radius: 10px;
+	margin: 0 0 30px auto;
+	font-family: "Work Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(162, 0, 255);
+	text-shadow: 5px 3px 7px rgb(255, 0, 98);
+	background-color: rgba(229, 255, 0, 0.349);
+}
+.test-six {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px dashed rgb(38, 0, 255);
+	border-radius: 10px;
+	margin: 0 0 30px 40%;
+	font-family: "Avdirabold", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(134, 134, 134);
+	text-shadow: 5px 3px 7px rgb(208, 255, 0);
+}
+.test-seven {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px solid rgb(255, 210, 11);
+	border-radius: 10px;
+	margin: 0 0 30px 35%;
+	font-family: "Work Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(0, 255, 213);
+	text-shadow: 5px 3px 7px rgb(139, 88, 22);
+	box-shadow: 20px 20px 60px 10px rgba(94, 94, 94, 0.534);
+}
+.test-eight {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px dashed rgb(20, 255, 118);
+	border-radius: 10px;
+	margin: 0 0 30px 30%;
+	font-family: "Indie Flower", cursive;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(5, 5, 5);
+	text-shadow: 5px 3px 7px rgb(136, 160, 29);
+}
+.test-nine {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px solid rgb(255, 0, 191);
+	border-radius: 10px;
+	margin: 0 0 30px 25%;
+	font-family: "Righteous", cursive;
+	font-size: 25px;
+	line-height: 30px;
+	color: rgb(31, 100, 41);
+	text-shadow: 5px 3px 7px rgb(255, 0, 0);
+	box-shadow: 20px 20px 60px 10px rgba(94, 94, 94, 0.534);
+}
+.test-ten {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px solid rgb(180, 39, 39);
+	border-radius: 10px;
+	margin: 0 0 30px 20%;
+	font-family: "MatchesTypeface", sans-serif;
+	font-size: 50px;
+	line-height: 65px;
+	color: rgb(30, 214, 122);
+	text-shadow: 5px 3px 7px rgb(153, 0, 255);
+	box-shadow: 20px 20px 60px 10px rgba(94, 94, 94, 0.534);
+	background: url("../img/222.png") 100% 0 / auto no-repeat;
+}
+.test-eleven {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px dotted rgb(20, 230, 184);
+	border-radius: 10px;
+	margin: 0 0 30px 45%;
+	font-family: "Bebas Neue", cursive;
+	font-size: 50px;
+	line-height: 50px;
+	color: rgb(21, 99, 218);
+	text-shadow: 5px 3px 7px rgb(198, 233, 43);
+}
+.test-tvelv {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px dotted rgb(253, 89, 89);
+	border-radius: 10px;
+	margin: 0 0 30px 40%;
+	font-family: "Indie Flower", cursive;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(212, 28, 105);
+	text-shadow: 5px 3px 7px rgb(99, 107, 61);
+	background: url("../img/222.png") 99% 56% / auto no-repeat, rgba(255, 238, 145, 0.466);
+}
+.test-thirteen {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px double rgb(0, 101, 253);
+	border-radius: 10px;
+	margin: 0 0 30px 35%;
+	font-family: "MatchesTypeface", sans-serif;
+	font-size: 50px;
+	line-height: 65px;
+	color: rgb(0, 255, 34);
+	text-shadow: 5px 3px 7px rgb(0, 26, 255);
+	background: url("../img/222.png") 100% 0 / auto no-repeat, url("../img/444.jpg") 0 0 / cover fixed;
+}
+.test-fourteen {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px dashed rgb(166, 255, 0);
+	border-radius: 10px;
+	margin: 0 0 30px 30%;
+	font-family: "Bebas Neue", cursive;
+	font-size: 50px;
+	line-height: 50px;
+	color: rgb(38, 0, 255);
+	text-shadow: 5px 3px 7px rgb(208, 255, 0);
+	background: url("../img/222.png") 98% 20% / auto no-repeat, url("../img/222.png") right 52% / auto no-repeat, url("../img/white-wood.jpg");
+}
+.test-fiveteen {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px solid rgb(233, 25, 25);
+	border-radius: 10px;
+	margin: 0 0 30px 25%;
+	font-family: "Avdirabold", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(0, 0, 0);
+	text-shadow: 5px 3px 7px rgb(255, 238, 0);
+	background: url("../img/keybord.png") 0 0 / cover no-repeat;
+}
+.test-sixteen {
+	max-width: 1000px;
+	padding: 20px;
+	border: 10px solid rgb(11, 238, 79);
+	border-radius: 10px;
+	margin: 0 0 30px 20%;
+	font-family: "Righteous", cursive;
+	font-size: 25px;
+	line-height: 30px;
+	color: rgb(255, 123, 0);
+	text-shadow: 5px 3px 7px rgb(0, 153, 255);
+	box-shadow: 20px 20px 60px 10px rgba(94, 94, 94, 0.534);
+	background-image: linear-gradient(to bottom, rgba(236, 232, 157, 0.486) 0%, rgba(94, 83, 115, 0.493) 50%, rgba(24, 181, 165, 0.445) 100%);
+}
+
+/*================================================== POLYGON ==================================================*/
